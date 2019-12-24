@@ -14,6 +14,8 @@ module.exports = {
         test: /\.css$/, // 处理.css结尾的文件
         // 使用loader
         // 多个loader时，从右向左(从数组后面往前面)依次调用
+        // 通过css-loader、style-loader将css打包到js中
+        // 若想将css从js中提取出来，需要使用extract-text-webpack-plugin
         use: [
           {
             loader: 'style-loader'

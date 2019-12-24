@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz",
     "00": "webpack --config ./src/00_hello-webpack/webpack.config.js",
-    "01": "webpack --config ./src/01_use-loader/webpack.config.js"
+    "01": "webpack --config ./src/01_use-loader/webpack.config.js",
+    "02": "webpack --config ./src/02_use-plugin/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "commitizen": "^4.0.3",
     "css-loader": "^3.4.0",
     "cz-conventional-changelog": "^3.0.2",
+    "extract-text-webpack-plugin": "^3.0.0",
     "style-loader": "^1.1.1",
     "webpack": "^3.12.0"
   },

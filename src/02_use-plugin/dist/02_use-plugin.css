@@ -1,0 +1,7 @@
+#app {
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+
+  background: url('test.png') no-repeat center;
+}
