@@ -1,0 +1,30 @@
+{
+  "name": "dive-into-webpack-demos",
+  "version": "1.0.0",
+  "description": "《深入浅出Webpack》学习demos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanAdamss/dive-into-webpack-demos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryanAdamss/dive-into-webpack-demos/issues"
+  },
+  "homepage": "https://github.com/BryanAdamss/dive-into-webpack-demos#readme",
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
