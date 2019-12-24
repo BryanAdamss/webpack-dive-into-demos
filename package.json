@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "00": "webpack --config ./src/00_hello-webpack/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,8 @@
   "homepage": "https://github.com/BryanAdamss/dive-into-webpack-demos#readme",
   "devDependencies": {
     "commitizen": "^4.0.3",
-    "cz-conventional-changelog": "^3.0.2"
+    "cz-conventional-changelog": "^3.0.2",
+    "webpack": "^3.12.0"
   },
   "config": {
     "commitizen": {
