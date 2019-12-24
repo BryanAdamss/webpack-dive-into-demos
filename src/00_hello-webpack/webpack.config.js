@@ -11,6 +11,6 @@ module.exports = {
   output: {
     // 把所有依赖的模块合并输出到一个 bundle.js 文件
     filename: '00_hello-webpack-bundle.js', // 输出文件名
-    path: path.join(process.cwd(), './dist') // 使用绝对路径指定输出目录
+    path: path.join(__dirname, './dist') // 使用绝对路径指定输出目录
   }
 }
