@@ -10,7 +10,7 @@ const resolve = _path => path.resolve(__dirname, _path)
 
 module.exports = {
   entry: {
-    path: resolve('./main.js')
+    main: resolve('./main.js')
   },
   output: {
     path: resolve('./dist'),
