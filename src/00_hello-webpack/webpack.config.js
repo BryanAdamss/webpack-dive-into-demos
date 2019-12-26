@@ -7,7 +7,8 @@ const path = require('path')
 
 // 由于 Webpack 构建运行在 Node.js 环境下，所以该文件最后需要通过 CommonJS 规范导出一个描述如何构建的 Object 对象
 module.exports = {
-  entry: path.join(__dirname, './main.js'), // 使用绝对路径指定入口
+  context: path.join(process.cwd(), './src/00_hello-webpack'), // entry、loader都会基于此路径查找
+  entry: './main.js', // 指定入口；entry 是一个 string 或 array，就只会生成一个 Chunk，这时 Chunk 的名称是 main；如果 entry 是一个 object，就可能会出现多个 Chunk，这时 Chunk 的名称是 object 键值对里键的名称；若路径为相对路径，则真实路径为context + entry；context默认为process.cwd()；所以一般会指定context
   output: {
     // 把所有依赖的模块合并输出到一个 bundle.js 文件
     filename: '00_hello-webpack-bundle.js', // 输出文件名
