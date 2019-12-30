@@ -10,7 +10,8 @@
     "01": "webpack --config ./src/01_use-loader/webpack.config.js",
     "02": "webpack --config ./src/02_use-plugin/webpack.config.js",
     "03": "webpack-dev-server --hot --devtool source-map --config ./src/03_dev-server/webpack.config.js",
-    "04": "webpack --config ./src/04_entry/webpack.config.js"
+    "04": "webpack --config ./src/04_entry/webpack.config.js",
+    "05": "webpack --config ./src/05_output/webpack.config.js"
   },
   "repository": {
     "type": "git",
