@@ -11,7 +11,9 @@
     "02": "webpack --config ./src/02_use-plugin/webpack.config.js",
     "03": "webpack-dev-server --hot --devtool source-map --config ./src/03_dev-server/webpack.config.js",
     "04": "webpack --config ./src/04_entry/webpack.config.js",
-    "05": "webpack --config ./src/05_output/webpack.config.js"
+    "05": "webpack --config ./src/05_output/webpack.config.js",
+    "06": "webpack --config ./src/06_module/webpack.config.js",
+    "07": "webpack --config ./src/07_resolve/webpack.config.js"
   },
   "repository": {
     "type": "git",
