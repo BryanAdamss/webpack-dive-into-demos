@@ -15,6 +15,7 @@ module.exports = {
 
 // ! 通过 Shell 脚本的方式去定义的环境变量，例如 NODE_ENV=production webpack，Webpack 是不认识的，对 Webpack 需要处理的代码中的环境区分语句是没有作用的。
 // 如果你想让 Webpack 使用通过 Shell 脚本的方式去定义的环境变量，你可以使用 EnvironmentPlugin，代码如下
+// https://webpack.docschina.org/plugins/environment-plugin
 
 // new webpack.EnvironmentPlugin(['NODE_ENV'])
 
