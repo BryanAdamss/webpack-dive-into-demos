@@ -1,0 +1,219 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "3.12.0",
+  "hash": "662662437617d5c368d2",
+  "time": 62,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "main": "main.js"
+  },
+  "assets": [
+    {
+      "name": "main.js",
+      "size": 2834,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "main.js"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 279,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "16a96bf6f1ee08fa524e",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "E:\\ReposSave\\dive-into-webpack-demos\\src\\25_analysis\\main.js",
+          "name": "./src/25_analysis/main.js",
+          "index": 0,
+          "index2": 1,
+          "size": 51,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "profile": {
+            "factory": 31,
+            "building": 16
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "const show = require('./show')\r\n\r\nshow('Webpack')\r\n"
+        },
+        {
+          "id": 1,
+          "identifier": "E:\\ReposSave\\dive-into-webpack-demos\\src\\25_analysis\\show.js",
+          "name": "./src/25_analysis/show.js",
+          "index": 1,
+          "index2": 0,
+          "size": 228,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "E:\\ReposSave\\dive-into-webpack-demos\\src\\25_analysis\\main.js",
+          "issuerId": 0,
+          "issuerName": "./src/25_analysis/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "E:\\ReposSave\\dive-into-webpack-demos\\src\\25_analysis\\main.js",
+              "module": "./src/25_analysis/main.js",
+              "moduleName": "./src/25_analysis/main.js",
+              "type": "cjs require",
+              "userRequest": "./show",
+              "loc": "1:13-30"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "// 操作 DOM 元素，把 content 显示到网页上\r\nfunction show(content) {\r\n  window.document.getElementById(\"app\").innerText = \"Hello,\" + content;\r\n}\r\n\r\n// 通过 CommonJS 规范导出 show 函数\r\nmodule.exports = show;\r\n"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "E:\\ReposSave\\dive-into-webpack-demos\\src\\25_analysis\\main.js",
+          "moduleIdentifier": "E:\\ReposSave\\dive-into-webpack-demos\\src\\25_analysis\\main.js",
+          "moduleName": "./src/25_analysis/main.js",
+          "loc": "",
+          "name": "main",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "E:\\ReposSave\\dive-into-webpack-demos\\src\\25_analysis\\main.js",
+      "name": "./src/25_analysis/main.js",
+      "index": 0,
+      "index2": 1,
+      "size": 51,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "profile": {
+        "factory": 31,
+        "building": 16
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "const show = require('./show')\r\n\r\nshow('Webpack')\r\n"
+    },
+    {
+      "id": 1,
+      "identifier": "E:\\ReposSave\\dive-into-webpack-demos\\src\\25_analysis\\show.js",
+      "name": "./src/25_analysis/show.js",
+      "index": 1,
+      "index2": 0,
+      "size": 228,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "E:\\ReposSave\\dive-into-webpack-demos\\src\\25_analysis\\main.js",
+      "issuerId": 0,
+      "issuerName": "./src/25_analysis/main.js",
+      "profile": {
+        "factory": 0,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "E:\\ReposSave\\dive-into-webpack-demos\\src\\25_analysis\\main.js",
+          "module": "./src/25_analysis/main.js",
+          "moduleName": "./src/25_analysis/main.js",
+          "type": "cjs require",
+          "userRequest": "./show",
+          "loc": "1:13-30"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "// 操作 DOM 元素，把 content 显示到网页上\r\nfunction show(content) {\r\n  window.document.getElementById(\"app\").innerText = \"Hello,\" + content;\r\n}\r\n\r\n// 通过 CommonJS 规范导出 show 函数\r\nmodule.exports = show;\r\n"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}

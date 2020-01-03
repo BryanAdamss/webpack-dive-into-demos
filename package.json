@@ -14,7 +14,8 @@
     "05": "webpack --config ./src/05_output/webpack.config.js",
     "06": "webpack --config ./src/06_module/webpack.config.js",
     "07": "webpack --config ./src/07_resolve/webpack.config.js",
-    "08": "webpack-dev-server --progress --config ./src/08_dev/webpack.config.js"
+    "08": "webpack-dev-server --progress --config ./src/08_dev/webpack.config.js",
+    "25": "webpack --config ./src/25_analysis/webpack.config.js  --profile --json > stats.json"
   },
   "repository": {
     "type": "git",
