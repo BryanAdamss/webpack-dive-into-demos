@@ -1,5 +1,6 @@
 // HappyPack可以让 Webpack 同一时刻处理多个任务，发挥多核 CPU 电脑的威力，以提升构建速度
 // 由于HappyPack 对file-loader、url-loader 支持的不友好，所以不建议对该loader使用。
+// happypack作者不维护了，可以考虑使用thread-loader替代
 
 const path = require('path')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
