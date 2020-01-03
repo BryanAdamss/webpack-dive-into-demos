@@ -1,5 +1,6 @@
 // 通过 Webpack 提取多个chunk中的公共代码
 // Webpack 内置了专门用于提取多个 Chunk 中公共部分的插件 CommonsChunkPlugin
+// CommonsChunkPlugin 已经从 webpack v4 legato 中移除。想要了解在最新版本中如何处理 chunk，请查看 SplitChunksPlugin。
 const CommonsChunkPlugin = require('webpack/lib/optimize/CommonsChunkPlugin')
 
 new CommonsChunkPlugin({
