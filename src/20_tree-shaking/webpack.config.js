@@ -1,5 +1,5 @@
 // Tree Shaking在webpack 2.0 已经自带
-// 只能针对esm使用
+// 只能针对esm使用，基于esm进行静态分析的
 // 所以，在使用babel转换es时，必选关闭babel自带的模块转换(转成其他模块系统)
 
 // {
