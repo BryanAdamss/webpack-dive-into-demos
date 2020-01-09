@@ -34,7 +34,7 @@ module.exports = {
   // 再按照如下配置，就可以实现从bundle中剔除某些不需要打包的库
   // 一般用在使用了提供了全局变量的库上，例如jquery
   externals: {
-    // key为导入语句的"入参"，value为对应的全局变量
+    // key为导入语句from后的值(要导入的包)，value为对应的全局变量
     // 这样配置后
     // import $ from 'jquery'在应用中依旧可用
     // ! 本质是把导入语句(import、require)里的 jquery 替换成运行环境里的全局变量 jQuery
